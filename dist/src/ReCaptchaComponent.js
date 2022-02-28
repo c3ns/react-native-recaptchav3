@@ -41,7 +41,7 @@ class ReCaptchaComponent extends React.PureComponent {
     render() {
         var hardwareDisabled = false;
         if (this.props.androidHardwareAccelerationDisabled !== undefined) {
-            hardwareDisabled = this.props.androidHardwareAccelerationDisabled'
+            hardwareDisabled = this.props.androidHardwareAccelerationDisabled;
         }
         
         return React.createElement(react_native_1.View, { style: { flex: 0.0001, width: 0, height: 0 } },
